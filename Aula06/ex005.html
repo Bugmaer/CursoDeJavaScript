@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+
+        body {
+            background-color: rgb(25, 181, 192);
+            color: rgb(255, 255, 255);
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM </h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usart o <strong>DOM</strong> em JS</p>
+    <div>Clique em mim</div>
+    <script>
+        var corpo = window.document.body //declarar a variavel corpo como o body do documento
+        var p1 = window.document.getElementsByTagName('p')[1] //declarei a variavel como o paragrafo
+        window.document.write(p1.innerHTML)
+        p1.style.color = 'blue' //TROCAR A COR DA VARIAVEL WTFF
+        corpo.style.background = 'pink' //trocar a cor do body todo pela variavel
+    </script>
+</body>
+</html>
