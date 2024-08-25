@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    Qual seu país <input type="text" name="txtpaís" id="itxtpaís">
+    <div id="res"></div>
+    <input type="button" value="Verificar!!" onclick="verificar()">
+
+    <script>
+        function verificar() {
+        var país = window.document.querySelector('input#itxtpaís')
+        var res = window.document.querySelector('div#res')
+        if (país == 'BRASIL') {
+            res.innerHTML = 'Você é brasileiro!!'
+        }
+        else {
+            res.innerHTML = 'Você é estrangeiro!!'
+        }
+    }
+    </script>   
+    
+</body>
+</html>
