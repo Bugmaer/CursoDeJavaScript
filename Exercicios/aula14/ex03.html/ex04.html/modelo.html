@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <form action="cadastro.java" method="get">
+            <div id="year">
+                Ano de nascimento: <input type="number" name="ano" id="iano" min="1800" max="2024">
+            </div>
+            <div id="sex">
+                <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label>
+            </div>
+            <div id="button">
+                <input type="button" value="Verificar" onclick="verificar()">
+             </div>
+             <div id="res"></div>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>
+            © Bugmaer
+        </p>
+    </footer>
+    <script>
+        function verificar() {
+            var ano = Number(document.getElementsByName('ano'))
+            agora = new Date
+            ano = get
+        }
+    </script>
+    
+</body>
+</html>

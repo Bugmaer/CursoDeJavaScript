@@ -1,0 +1,25 @@
+body {      
+    background-color: #3F86D8;
+    font: normal 15pt Arial;
+ }
+ header {
+    color: white;
+    text-align: center;
+ }
+ section {
+    width: 500px;
+
+    padding: 20px;
+    border-radius: 3%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.349);
+ }
+ div {
+   padding: 15px 0px;
+ }
+ footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+ }
