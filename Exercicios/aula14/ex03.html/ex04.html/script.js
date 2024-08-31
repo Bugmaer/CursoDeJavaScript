@@ -16,6 +16,8 @@ function calcular() {
             tab.appendChild(item)
             c++
         }
+        num.value = ""
+        num.focus()
     }
     
 
