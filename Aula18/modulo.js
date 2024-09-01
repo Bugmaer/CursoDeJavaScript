@@ -1,6 +1,9 @@
-import { cursos } from "./cursos.js"
-import { carros } from "./cursos.js"
+import getTodosCursos from "./cursos.js"
+import { cursos,getCruso } from "./cursos.js"
+
+
 
 console.log('Rodando')
 console.log(cursos)
-console.log(carros)
+console.log(getCruso(1))
+
