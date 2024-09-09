@@ -10,13 +10,21 @@ const characters = [
     { name: 'Gandalf', race: 'Ainur'},
 ]
 
-const hobbits = []
+//const hobbits = []
 
-for (let i = 0; i < characters.length; i++) {
-    if (characters[i].race === 'Hobbit') {
+/*for (let i = 0; i < characters.length; i++) {
+    if (character[i].race === 'Hobbit') {
         hobbits.push(characters[i])
     }
     
-}
+}*/
+
+//    const hobbits = characters.filter(function (character) {
+//        return character.race === 'Hobbit'
+//    })
+
+const isHobbit = character => character.race === 'Hobbit'
+
+const hobbits = characters.filter(character => character.race === 'Hobbit')
  
 console.log(hobbits)
